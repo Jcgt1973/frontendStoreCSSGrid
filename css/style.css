@@ -1,0 +1,19 @@
+:root {
+    --fuentePrincipal: 'Staatliches', cursive;
+    --primario: #9c27b0;
+    --primarioOscuro: #89119d;
+    --secundario: #ffce00;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {}
