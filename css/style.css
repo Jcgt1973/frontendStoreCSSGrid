@@ -29,6 +29,12 @@ h1 {
     font-family: var(--fuentePrincipal);
 }
 
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
 .contenedor {
     max-width: 100rem;
     width: 95%;
@@ -124,5 +130,16 @@ img {
     .grafico-2 {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
+    }
+}
+
+
+/* Página Nosotros */
+
+@media (min-width: 768px) {
+    .contenedor-informacion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
     }
 }
